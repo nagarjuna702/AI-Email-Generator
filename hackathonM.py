@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import smtplib
 from email.message import EmailMessage
-
+#ai email generator
 # Configure the Gemini API
 genai.configure(api_key=st.secrets["api"]["key"])
 
